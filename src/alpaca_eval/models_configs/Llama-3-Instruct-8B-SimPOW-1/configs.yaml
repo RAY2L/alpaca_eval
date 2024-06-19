@@ -6,7 +6,7 @@ Llama-3-Instruct-8B-SimPOW-1:
     model_kwargs:
       dtype: bfloat16
       trust_remote_code: True
-    model_name: RAY2L/Llama-3-Instruct-8B-SimPOW-1
+    model_name: RAY2L/Llama-3-Instruct-8B-SimPOW-0
     stop_token_ids:
     - 128001
     - 128009
