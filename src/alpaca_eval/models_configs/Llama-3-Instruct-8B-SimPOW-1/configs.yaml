@@ -2,7 +2,7 @@ Llama-3-Instruct-8B-SimPOW-1:
   completions_kwargs:
     batch_size: 900
     do_sample: true
-    max_new_tokens: 2048
+    max_new_tokens: 50
     model_kwargs:
       dtype: bfloat16
       trust_remote_code: True
