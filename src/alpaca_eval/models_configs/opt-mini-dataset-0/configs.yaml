@@ -2,7 +2,7 @@ opt-mini-dataset-0:
   completions_kwargs:
     batch_size: 900
     do_sample: true
-    max_new_tokens: 4096
+    max_new_tokens: 256
     model_kwargs:
       dtype: bfloat16
     model_name: RAY2L/opt-mini-dataset-0
