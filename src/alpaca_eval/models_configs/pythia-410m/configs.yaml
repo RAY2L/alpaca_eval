@@ -5,7 +5,7 @@ pythia-410m:
     model_name: "EleutherAI/pythia-410m"
     model_kwargs:
       torch_dtype: 'bfloat16'
-    max_new_tokens: 1648
+    max_new_tokens: 128
     temperature: 0.7
     top_p: 1.0
     do_sample: True
