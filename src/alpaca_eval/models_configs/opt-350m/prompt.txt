@@ -1,1 +1,3 @@
-</s><{instruction}</s>
+</s><{instruction}
+
+output: 
