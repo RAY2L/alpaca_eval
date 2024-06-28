@@ -1,2 +1,2 @@
 </s><{instruction}</s>
-output: 
+Output: </s>
