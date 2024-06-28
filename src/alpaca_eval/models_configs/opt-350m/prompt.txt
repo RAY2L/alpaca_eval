@@ -1,0 +1,2 @@
+</s><{instruction}</s>
+Output: </s>
