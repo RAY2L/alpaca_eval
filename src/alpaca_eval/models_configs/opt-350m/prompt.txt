@@ -1,1 +1,1 @@
-</s><{instruction}
+</s><{instruction}</s>
