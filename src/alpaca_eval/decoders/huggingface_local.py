@@ -131,7 +131,7 @@ def huggingface_local_completions(
         model=model,
         tokenizer=tokenizer,
         **default_kwargs,
-        trust_remote_code=model_kwargs.get("trust_remote_code", False),
+        trust_remote_code=model_kwargs.get("trust_remote_code", True),
     )
 
     ## compute and log the time for completions
