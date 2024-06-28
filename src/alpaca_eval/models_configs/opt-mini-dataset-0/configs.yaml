@@ -1,0 +1,15 @@
+opt-mini-dataset-0:
+  completions_kwargs:
+    batch_size: 900
+    do_sample: true
+    max_new_tokens: 4096
+    model_kwargs:
+      dtype: bfloat16
+    model_name: RAY2L/opt-mini-dataset-0
+    stop_token_ids:
+    - 2
+    temperature: 0.9
+    top_p: 1.0
+  fn_completions: vllm_local_completions
+  pretty_name: opt-mini-dataset-0 
+  prompt_template: opt-mini-dataset-0/prompt.txt
