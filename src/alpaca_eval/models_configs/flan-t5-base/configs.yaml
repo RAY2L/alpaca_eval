@@ -10,7 +10,6 @@ flan-t5-base:
     - 1
     temperature: 0.9
     top_p: 1.0
-  fn_completions: huggingface_local_completions
+  fn_completions: huggingface_api_completions
   pretty_name: flan-t5-base
   prompt_template: flan-t5-base/prompt.txt
-  link: "https://huggingface.co/google/flan-t5-base"
