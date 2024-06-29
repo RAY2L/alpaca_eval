@@ -1,13 +1,13 @@
 flan-t5-base:
   completions_kwargs:
-    # batch_size: 900
+    batch_size: 900
     do_sample: true
     max_new_tokens: 128
-    # model_kwargs:
-    #   dtype: bfloat16
+    model_kwargs:
+      dtype: bfloat16
     model_name: google/flan-t5-base
-    # stop_token_ids:
-    # - 1
+    stop_token_ids:
+    - 1
     temperature: 0.9
     top_p: 1.0
   fn_completions: huggingface_api_completions
