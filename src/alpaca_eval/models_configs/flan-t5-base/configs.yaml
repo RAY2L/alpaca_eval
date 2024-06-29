@@ -1,8 +1,8 @@
 flan-t5-base:
   completions_kwargs:
-    batch_size: 900
+    # batch_size: 900
     do_sample: true
-    max_new_tokens: 128
+    max_new_tokens: 2048
     # model_kwargs:
     #   dtype: bfloat16
     model_name: google/flan-t5-base
