@@ -13,3 +13,4 @@ flan-t5-base:
   fn_completions: huggingface_api_completions
   pretty_name: flan-t5-base
   prompt_template: flan-t5-base/prompt.txt
+  link: "https://huggingface.co/google/flan-t5-base"
