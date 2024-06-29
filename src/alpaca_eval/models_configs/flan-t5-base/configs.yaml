@@ -3,8 +3,8 @@ flan-t5-base:
     batch_size: 900
     do_sample: true
     max_new_tokens: 128
-    model_kwargs:
-      dtype: bfloat16
+    # model_kwargs:
+    #   dtype: bfloat16
     model_name: google/flan-t5-base
     stop_token_ids:
     - 1
