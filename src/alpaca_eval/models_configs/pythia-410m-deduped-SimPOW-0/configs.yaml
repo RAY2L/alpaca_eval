@@ -10,4 +10,4 @@ pythia-410m-deduped-SimPOW-0:
     top_p: 1.0
     do_sample: True
   pretty_name: "pythia-410m-deduped-SimPOW-0"
-  link: "https://huggingface.co/RAY2L/pythia-410m-deduped-SimPOW-0/tree/main/checkpoint-26"
+  link: "https://huggingface.co/RAY2L/pythia-410m-deduped-SimPOW-0"
